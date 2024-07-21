@@ -7,3 +7,7 @@ edition = "2021"
 
 [dependencies]
 rand = "0.8.5"
+gif = "0.13.1"
+jpeg-decoder = "0.3.1"
+png = "0.17.13"
+bmp = "0.5.0"

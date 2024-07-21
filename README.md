@@ -3,6 +3,12 @@ The controller app for my [PicoWS2812B project](https://github.com/GameWin221/Pi
 
 It shows the data protocol, data/packet format and how to pack an 8-bit canvas to a 4-bit canvas.
 
+# Features
+- Auto-find Pico W in the local network
+- Procedural effects
+- Displaying GIFs
+- Displaying sequences of images (.png, .jpg, .jpeg and .bmp)
+
 # Procedural visual effects
 - Asteroids
 - Orbiting circles
@@ -10,8 +16,4 @@ It shows the data protocol, data/packet format and how to pack an 8-bit canvas t
 - *Many more in the future...*
 
 # Planned features
-- GIF support
-- Sequence of images support
-- Single image support
-- More procedural visual effects
-- Automatic search for the Pico's IP in local network
+- Store GIFs in Pico's flash memory in order to work offline (no latency and lags)
