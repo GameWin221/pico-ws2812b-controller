@@ -246,8 +246,8 @@ impl Image16x16Sequence {
         }
     }
 
-    pub fn get_frame_count(&self) -> usize {
-        self.bytes.len() / (16*16*3)
+    pub fn get_frame_count(&self) -> u16 {
+        self.bytes.len() as u16 / (16*16*3)
     }
 }
 
@@ -257,7 +257,7 @@ impl Effect for Image16x16Sequence {
             panic!("time must not be negative")
         }
 
-        let frame_idx = (time as usize) % self.get_frame_count();
+        let frame_idx = (time as usize) % self.get_frame_count() as usize;
 
         for i in 0..16*16 {
             let pixel_offset_image = (frame_idx * 16 * 16 + i) * 3;
