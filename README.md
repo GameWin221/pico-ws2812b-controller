@@ -9,6 +9,7 @@ It shows the data protocol, data/packet format and how to pack an 8-bit canvas t
 - Displaying GIFs
 - Displaying sequences of images (.png, .jpg, .jpeg and .bmp)
 - Storing GIFs in Pico's flash memory in order to display them offline (no latency and lags)
+- Gamma correction for canvas data
 
 # Procedural visual effects
 - Asteroids
